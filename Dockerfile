@@ -31,7 +31,6 @@ RUN \
 
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
-
 # Install required packages
 RUN apt-get update && apt-get install -qy curl git python python3 python-dev \
 	gfortran python3-dev wget llvm-gcc build-essential libc-dev \
